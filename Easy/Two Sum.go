@@ -1,4 +1,6 @@
 // 1-st solution
+// Time complexity - O(n^2)
+// Space complexity - O(n)
 
 func twoSum(nums []int, target int) []int {
     for i := 0; i < len(nums); i++ {
@@ -13,6 +15,8 @@ func twoSum(nums []int, target int) []int {
 }
 
 // 2-nd solution
+// Time complexity - O(n)
+// Space complexity - O(n)
 
 func twoSum(nums []int, target int) []int {
 	numsMap := make(map[int]int)
