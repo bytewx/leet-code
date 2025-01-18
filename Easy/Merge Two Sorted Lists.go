@@ -1,4 +1,6 @@
 // 1-st solution
+// Time complexity - O(m + n)
+// Space complexity - O(m + n)
 
 /**
  * Definition for singly-linked list.
@@ -28,6 +30,8 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 }
 
 // 2-nd solution
+// Time complexity - O(m + n)
+// Space complexity - O(1)
 
 /**
  * Definition for singly-linked list.
